@@ -54,7 +54,16 @@ int main()
     cout << "Les fruits avec Noyau dans le jus J1" << endl;
     afficher_fruit_jus(*J1);
  
-
-
+    delete S2;
+    delete J1;
+    delete S1;
+    
+    delete f1;
+    delete f2;
+    delete f3;
+    delete f4;
+    delete f5;
+    delete f6;
+    
 
 }
