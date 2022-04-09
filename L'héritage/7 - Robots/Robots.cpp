@@ -50,7 +50,18 @@ int main()
             list_robot[i]->display();
 
     }
-
+    
+    
+    list_robot.clear();
+    
+    delete R1;
+    delete RM1;
+    delete RF1;
+    
+    delete R2;
+    delete RM2;
+    delete RF2;
+    
 
 }
 
