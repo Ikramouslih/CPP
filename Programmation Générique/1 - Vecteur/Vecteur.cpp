@@ -29,6 +29,8 @@ int main()
     p1->depiler();
     p1->print();
     cout << endl;
+    
+    delete p1;
 
 
 
