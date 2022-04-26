@@ -9,7 +9,7 @@ class element
 {
 private:
     T data;
-    element* next;
+    element<T>* next;
 public:
     element(T data);
     void affichage() const;
